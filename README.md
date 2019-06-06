@@ -12,6 +12,8 @@ Usage is really simple:
 
 Use **WSAD** to move camera around.
 
+Use **Mouse scroll** to change camera size.
+
 Press **P** to start and pause simulation.
 
 Press **1** to select conductor (yellow)

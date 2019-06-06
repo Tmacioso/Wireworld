@@ -32,11 +32,6 @@ public class MapController : MonoBehaviour
         tiles.Add(State.Head, head);
         tiles.Add(State.Tail, tail);
         tiles.Add(State.Empty, null);
-
-        for (int i = -5; i < 5; i++)
-        {
-            field.Add(new Vector3Int(i, 0, 0), State.Conductor);
-        }
     }
     void Update()
     {
