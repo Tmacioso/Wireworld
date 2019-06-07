@@ -65,6 +65,7 @@ public class MapController : MonoBehaviour
         if (Input.GetMouseButton(1))
         {
             field.Remove(map.WorldToCell(pos));
+            map.SetTile(map.WorldToCell(pos), null);
         }
 
     }
